@@ -2,9 +2,371 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Résumé</title>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Maksym Faievskyi</h1>
+            <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
+
+            <div class="contact_info_container fh">
+              <div class="contact-info__block" style="min-width: 250px">
+                <!-- location -->
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0
+                          192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
+                          13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
+                          80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>Lviv, Ukraine</span>
+                </a>
+              </div>
+
+              <div class="contact-info__block contact-info__block--center">
+                <img
+                  class="contact-info__avatar"
+                  src="assets/avatar.jpg"
+                  alt="Avatar"
+                />
+              </div>
+
+              <div class="contact-info__block" style="min-width: 250px">
+                <!-- linkedin -->
+                <a
+                  href="https://www.linkedin.com/in/maksym-faievskyi-11a976195/"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>linkedin</span>
+                </a>
+                <!-- gmail -->
+                <a
+                  href="mailto:maksim.faevskyi@gmail.com"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-mail-icon lucide-mail"
+                    >
+                      <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+                      <rect x="2" y="4" width="20" height="16" rx="2" />
+                    </svg>
+                  </div>
+                  <span>maksim.faevskyi@gmail.com</span>
+                </a>
+                <!-- telegram -->
+                <a
+                  href="https://t.me/marsik_404"
+                  class="contact-info__item"
+                  target="_blank"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-telegram"
+                    >
+                      <path
+                        d="M21.05 2.39 2.34 10.17c-1.1.44-1.09 1.14-.2 1.43l4.82 1.51 1.81 5.73c.24.76.42 1.05.88 1.16.46.11.78-.05 1.09-.37.28-.28.73-.75 1.43-1.47l2.98 2.2c.55.3.94.14 1.08-.52l3.36-15.1c.2-.93-.35-1.37-1.04-1.14z"
+                      />
+                    </svg>
+                  </div>
+                  <span>@marsik_404</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg
+                  class="intro__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+                      24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+                      26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                      48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+                      64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0
+                      103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0
+                      48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+              </div>
+              <p class="intro_text">
+                I'm a software engineer completing my degree at Lviv Polytechnic
+                National University, specializing in Software Engineering. My
+                technical stack includes JavaScript, TypeScript, React, Node.js,
+                and Express.js, with experience in both relational and
+                non-relational databases. Well-versed in software design
+                patterns, I'm passionate about creating efficient, scalable
+                solutions to complex technical challenges.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p class="skills__text">
+                <strong>Programming Languages and Technologies:</strong>
+                JavaScript, TypeScript, React, Node.js, Express.js, SQL
+                (PostgreSQL, SQL Server Management Studio, SQLite), HTML5, CSS3,
+                Bootstrap, Material UI, REST API, JSON, Git, Jira, Figma, UML.
+              </p>
+              <p class="skills__text">
+                <strong>Software Design Principles and Patterns:</strong> OOP,
+                SOLID, MVC.
+              </p>
+              <p class="skills__text">
+                <strong>Soft Skills:</strong>
+                Responsibility, Quick Learning, Adaptability, Teamwork, Time
+                Management.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <div class="experiences">
+                <h3 class="experiences__header">Experience</h3>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >2023 - 2024</span
+                    >
+                    <h3 class="experiences__company-header-name">
+                      SoftServe IT Academy Practical Node.js
+                    </h3>
+                  </div>
+
+                  <div class="experiences__company-project">
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>
+                        Implemented JWT for secure authentication in web
+                        services.
+                      </li>
+                      <li>
+                        Developed modules and packages in Node.js to structure
+                        scalable applications.
+                      </li>
+                      <li>
+                        Conducted unit testing to ensure code quality and
+                        reliability.
+                      </li>
+                      <li>
+                        Built RESTful APIs and worked with GraphQL to handle
+                        data queries efficiently.
+                      </li>
+                      <li>Integrated real-time communication with Socket.io</li>
+                      <li>
+                        Utilized Express, KOA.js, and templating engines like
+                        EJS to create dynamic web applications.
+                      </li>
+                      <li>
+                        Gained experience in database management using Mongoose,
+                        Sequelize, and MySQL.
+                      </li>
+                      <li>
+                        Mastered asynchronous programming and the use of child
+                        processes and worker threads in Node.js
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >2023</span
+                    >
+                    <h3 class="experiences__company-header-name">
+                      Practice in EPAM
+                    </h3>
+                  </div>
+
+                  <div class="experiences__company-project">
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>
+                        Enhanced collaboration skills through Git-based teamwork
+                        while creating responsive web applications.
+                      </li>
+                      <li>
+                        Gained solid foundational knowledge in web development,
+                        including strong theoretical understanding of HTML, CSS,
+                        and JavaScript, applied in practical projects.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability"
+                      >2022 - 2023</span
+                    >
+                    <h3 class="experiences__company-header-name">
+                      SoftServe IT Academy JavaScript Fundamentals
+                    </h3>
+                  </div>
+
+                  <div class="experiences__company-project">
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>
+                        Built responsive web pages using HTML5, CSS3, Flexbox,
+                        Grid, and media queries.
+                      </li>
+                      <li>
+                        Styled interfaces with Tailwind CSS and Bootstrap for
+                        rapid UI development.
+                      </li>
+                      <li>
+                        Applied JavaScript fundamentals: functions, arrays,
+                        objects, DOM manipulation, and events.
+                      </li>
+                      <li>
+                        Developed a basic e-commerce site with dynamic content,
+                        cart logic, and backend interaction using Fetch API.
+                      </li>
+                      <li>
+                        Gained hands-on experience with Node.js and introduced
+                        to React and Next.js for modern web app development.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+                  <div class="additional-info__education-university">
+                    <span
+                      class="additional-info__education-university-durability"
+                      >2021-2025</span
+                    >
+                    <h3
+                      class="additional-info__education-university-speciality"
+                    >
+                      Software Engineering, Bachelor’s degree
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      <strong>Lviv Polytechnic National University</strong>
+                      <br />
+                      Institute of Computer Science and Information Technologies
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__pet-projects">
+                  <h3 class="additional-info__pet-projects-header">
+                    Pet-projects
+                  </h3>
+                  <div class="additional-info__pet-projects-details">
+                    <h3 class="additional-info__pet-projects-name">
+                      Used Car Sales Website
+                    </h3>
+                    <p>
+                      I developed a web application for selling used cars using
+                      vanilla JavaScript, HTML, and CSS. The design was
+                      implemented with Bootstrap for a responsive layout.
+                      Instead of a database, I utilized localStorage to store
+                      user information and vehicle data. The application
+                      features robust car filtering functionality, sorting
+                      options, and a search system that allows users to find
+                      vehicles by model. The site also includes user
+                      authentication with registration and login pages.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 class="additional-info__pet-projects-name">
+                      Parking Website
+                    </h3>
+                    <p>
+                      A full-stack parking management application built with
+                      React and Node.js, featuring Material UI for a modern
+                      interface. The system implements secure token-based
+                      authentication for user registration and login.
+                      Interactive mapping functionality is powered by Leaflet
+                      and OpenStreetMap, while PostgreSQL with PostGIS extension
+                      handles spatial data storage for parking area polygons.
+                      Key features include comprehensive parking space search
+                      with filtering options, a reservation system for securing
+                      parking spots, route planning to guide users to their
+                      destinations, and additional parking management utilities.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__hobbies">
+                  <h3 class="additional-info__hobbies-header">Hobbies</h3>
+                  <p class="additional-info__hobbies-item">
+                    Programming, playing video games, fishing, cars, playing the
+                    guitar
+                  </p>
+                </div>
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">
+                    English (Intermediate)
+                  </p>
+                  <p class="additional-info__languages-item">
+                    Ukrainian (Native)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
