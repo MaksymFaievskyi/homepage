@@ -228,11 +228,17 @@ body {
   flex: 1 1 40%;
 }
 
-.additional-info__education {
+.additional-info__education,
+.additional-pet-projects,
+.additional-info__hobbies,
+.additional-info__languages {
   margin-bottom: 20px;
 }
 
-.additional-info__education-header {
+.additional-info__education-header,
+.additional-info__pet-projects-header,
+.additional-info__hobbies-header,
+.additional-info__languages-header {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
@@ -245,6 +251,7 @@ body {
   font-size: 15px;
 }
 
+.additional-info__pet-projects-name,
 .additional-info__education-university-speciality {
   color: var(--primary-text-color);
   text-align: left;
@@ -255,16 +262,20 @@ body {
   color: var(--secondary-text-color);
 }
 
-.additional-info__languages {
-  margin-bottom: 20px;
-}
-
+.additional-info__pet-projects,
+.additional-info__hobbies-header,
 .additional-info__languages-header {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
 }
 
+.additional-info__pet-projects-details {
+  margin-bottom: 10px;
+}
+
+.additional-info__timelines-item,
+.additional-info__hobbies-item,
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
